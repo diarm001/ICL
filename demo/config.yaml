@@ -1,0 +1,18 @@
+# NibbleAI Demo Config
+
+encoder:
+  model: claude-haiku-4-5-20251001
+  max_tokens: 300
+
+target:
+  webhook_url: "https://httpbin.org/post"
+  system_name: "Tines"
+  simulate_execution: true   # set false + paste a live webhook URL for production
+
+identity:
+  user_id: "demo_user_001"
+  user_name: "Eoin Hinchy"
+  user_role: "admin"
+
+audit:
+  log_file: "nibble_audit.jsonl"
