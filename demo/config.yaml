@@ -11,7 +11,7 @@ target:
 
 identity:
   user_id: "demo_user_001"
-  user_name: "Eoin Hinchy"
+  user_name: "John Galt"
   user_role: "admin"
 
 audit:
